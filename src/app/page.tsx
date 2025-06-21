@@ -1,9 +1,16 @@
-import React from 'react'
+import AboutSnippet from "@/components/Home/AboutSnippet";
+import HeroCarousel from "@/components/Home/HeroCarousel";
+import WhyChooseUs from "@/components/Home/WhyChooseUs";
+import React from "react";
 
 function page() {
-  return (
-    <div>page</div>
-  )
+	return (
+		<>
+			<HeroCarousel />
+			<AboutSnippet />
+			<WhyChooseUs />
+		</>
+	);
 }
 
-export default page
+export default page;

@@ -88,7 +88,7 @@ export default function Footer() {
 							target="_blank"
 							rel="noopener noreferrer"
 							className="hover:text-[#F6BE00]">
-							vrkisanparivaar.co
+							vrkisanparivaar.com
 						</a>
 					</p>
 				</div>
