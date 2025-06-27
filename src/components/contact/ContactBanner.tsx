@@ -1,18 +1,16 @@
-type ContactHeaderProps = {
-	title: string;
-	description?: string;
-};
+"use client";
 
-export default function ContactHeader({
-	title,
-	description,
-}: ContactHeaderProps) {
+import Banner from "@/components/Banner";
+
+export default function ContactBanner() {
 	return (
-		<div className="text-center max-w-3xl mx-auto px-4 py-12">
-			<h1 className="text-4xl md:text-5xl font-bold text-[#2F855A] mb-4">
-				{title}
-			</h1>
-			{description && <p className="text-lg text-[#2D3748]">{description}</p>}
-		</div>
+		<>
+			<Banner
+				title="Contact Us"
+				bgImageUrl="https://res.cloudinary.com/dgulr1hgd/image/upload/v1750923873/1154575_ejfwd4.jpg"
+			/>
+			
+			{/* You can add the rest of your About page content here */}
+		</>
 	);
 }

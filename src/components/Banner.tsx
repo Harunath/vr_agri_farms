@@ -1,26 +1,34 @@
-import Link from "next/link";
+import Image from "next/image";
 
 type BannerProps = {
-  title: string;
-  subtitle: string;
-  buttonText: string;
-  buttonLink: string;
+	title: string;
+	bgImageUrl: string;
 };
 
-export default function Banner({ title, subtitle, buttonText, buttonLink }: BannerProps) {
-  return (
-    <section className="bg-[#F6BE00] text-[#2D3748] py-12 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-        <div>
-          <h2 className="text-3xl font-bold mb-2">{title}</h2>
-          <p className="text-lg">{subtitle}</p>
-        </div>
-        <Link href={buttonLink}>
-          <button className="mt-4 md:mt-0 bg-[#2F855A] text-white px-6 py-3 rounded-lg hover:bg-[#276749] transition">
-            {buttonText}
-          </button>
-        </Link>
-      </div>
-    </section>
-  );
+export default function Banner({ title, bgImageUrl }: BannerProps) {
+	return (
+		<section className="relative overflow-hidden h-[60vh] md:h-[70vh] flex items-center">
+			{/* Background Image */}
+			<div className="absolute inset-0 z-0">
+				<Image
+					src={bgImageUrl}
+					alt="Banner background"
+					fill
+					sizes="100vw"
+					className="object-cover"
+					priority
+					quality={100} // Highest quality
+				/>
+				<div className="absolute inset-0 bg-black/40" />{" "}
+				{/* Optional overlay */}
+			</div>
+
+			{/* Title Overlay */}
+			<div className="relative z-10 w-full text-center px-4">
+				<h1 className="text-3xl md:text-5xl font-bold text-white drop-shadow-lg">
+					{title}
+				</h1>
+			</div>
+		</section>
+	);
 }

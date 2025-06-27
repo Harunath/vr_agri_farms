@@ -8,41 +8,42 @@ import {
 
 const items = [
 	{
-		icon: <FaHandsHelping size={28} className="text-[#F6BE00]" />,
+		icon: <FaHandsHelping size={36} className="text-orange-500 mx-auto" />,
 		text: "A unique business opportunity in India and internationally.",
 	},
 	{
-		icon: <FaLeaf size={28} className="text-[#F6BE00]" />,
-		text: "A hybrid model of land ownership and agriculture that enables coexistence with nature and reconnects us with the roots of our elders.",
+		icon: <FaLeaf size={36} className="text-orange-500 mx-auto" />,
+		text: "A hybrid model of land ownership and agriculture that fosters sustainability and connects us to our roots.",
 	},
 	{
-		icon: <FaChartLine size={28} className="text-[#F6BE00]" />,
-		text: "Best Returns, Best Growth Potential, Wealth Protection, and Portfolio Diversification.",
+		icon: <FaChartLine size={36} className="text-orange-500 mx-auto" />,
+		text: "High returns, strong growth potential, and smart portfolio diversification.",
 	},
 	{
-		icon: <FaSeedling size={28} className="text-[#F6BE00]" />,
-		text: "Our Business Model ensures a fixed stream of income and excellent ROI (Return on Investment) for our clients unlike other players in the market.",
+		icon: <FaSeedling size={36} className="text-orange-500 mx-auto" />,
+		text: "Our model offers reliable income streams and excellent ROI unlike traditional methods.",
 	},
 	{
-		icon: <FaHandshake size={28} className="text-[#F6BE00]" />,
-		text: "Our exclusive partnership with an MNC across 9 Indian states ensures steady returns.",
+		icon: <FaHandshake size={36} className="text-orange-500 mx-auto" />,
+		text: "We partner with a reputed MNC across 9 Indian states ensuring stable returns.",
 	},
 ];
 
 export default function WhyChooseUs() {
 	return (
-		<section className="bg-[#FDFCF5] py-16 px-6">
+		<section className="bg-white py-20 px-6">
 			<div className="max-w-6xl mx-auto text-center">
-				<h2 className="text-3xl font-bold text-[#2F855A] mb-10">
-					Why Choose VR Agri Farms
+				<h2 className="text-4xl font-bold text-gray-700 mb-12">
+					Why Choose <span className="text-orange-500">VR Agri Farms</span>
 				</h2>
-				<div className="grid gap-6 md:grid-cols-2 text-left">
+
+				<div className="grid gap-10 md:grid-cols-2 lg:grid-cols-2">
 					{items.map((item, index) => (
 						<div
 							key={index}
-							className="flex items-start gap-4 bg-white p-6 rounded-md shadow hover:shadow-md transition border-l-4 border-[#F6BE00]">
-							<div>{item.icon}</div>
-							<p className="text-[#2D3748] text-base leading-relaxed">
+							className="bg-gray-50 rounded-xl px-6 py-8 shadow-sm hover:shadow-md transition duration-300 text-center">
+							{item.icon}
+							<p className="mt-4 text-gray-700 text-base leading-relaxed">
 								{item.text}
 							</p>
 						</div>

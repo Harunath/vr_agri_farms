@@ -5,7 +5,7 @@ import ContactHeader from './ContactBanner'
 function ContactHome() {
   return (
     <>
-    <ContactHeader title={''}/>
+    <ContactHeader />
     <ContactMain/>
     
     </>
