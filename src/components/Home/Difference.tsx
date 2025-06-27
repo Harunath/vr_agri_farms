@@ -30,29 +30,36 @@ const features = [
 
 export default function Difference() {
 	return (
-		<section className="bg-slate-100 text-gray-800 py-16 px-6">
-			<div className="max-w-6xl mx-auto space-y-8">
-				<h2 className="text-4xl font-bold text-gray-900 ">
-					How VR Agri Makes a Difference
-				</h2>
+		<section className="bg-slate-100 text-gray-800 py-20 px-6 sm:px-10">
+			<div className="max-w-6xl mx-auto space-y-10">
+				<div className="text-center">
+					<h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+						How{" "}
+						<span className="text-orange-500">VR Agri </span>
+                        Makes a Difference
+					</h2>
+					<p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
+						VR Agri makes it simple to own and enjoy farmland. Whether you want
+						a peaceful green space or a smart investment, we offer a complete
+						and caring service that puts you first.
+					</p>
+				</div>
 
-				<p className="text-lg text-gray-700 max-w-3xl">
-					VR Agri makes it simple to own and enjoy farmland. Whether you want a
-					peaceful green space or a smart investment, we offer a complete and
-					caring service that puts you first.
-				</p>
-
-				<div className="grid md:grid-cols-2 gap-10 pt-4">
+				<div className="grid md:grid-cols-2 gap-8 pt-4">
 					{features.map((item, index) => (
-						<div key={index} className="flex items-start gap-4">
-							<div className="text-green-600 mt-1">
-								<FaCheckCircle size={20} />
+						<div
+							key={index}
+							className="flex items-start gap-4 bg-white p-5 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+							<div className="text-green-600 mt-1 shrink-0">
+								<FaCheckCircle size={24} />
 							</div>
 							<div>
-								<h4 className="font-semibold text-lg text-gray-900">
+								<h4 className="font-semibold text-lg text-gray-900 mb-1">
 									{item.title}
 								</h4>
-								<p className="text-gray-700 mt-1 text-sm">{item.description}</p>
+								<p className="text-sm text-gray-700 leading-relaxed">
+									{item.description}
+								</p>
 							</div>
 						</div>
 					))}

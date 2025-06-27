@@ -29,34 +29,52 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`fixed top-0 left-0 w-full z-50 transition duration-300 ${
-				scrolled ? "backdrop-blur-md shadow-md" : "bg-transparent"
+			className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+				scrolled ? "bg-white shadow-md" : "bg-transparent"
 			}`}>
-			<div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between text-white">
+			<div
+				className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between ${
+					scrolled ? "text-black" : "text-white"
+				}`}>
 				{/* Logo */}
-				<Link href="/" className="text-xl font-bold text-white">
+				<Link
+					href="/"
+					className={`text-xl font-extrabold tracking-wide ${
+						scrolled ? "text-black" : "text-white"
+					}`}>
 					VR Agri Farms
 				</Link>
 
-				{/* Mobile Toggle Button */}
+				{/* Mobile Toggle */}
 				<button
 					onClick={() => setIsOpen(!isOpen)}
-					className="md:hidden"
+					className="md:hidden focus:outline-none"
 					aria-label="Toggle Menu">
-					{isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+					{isOpen ? (
+						<FaTimes
+							size={24}
+							className={scrolled ? "text-black" : "text-white"}
+						/>
+					) : (
+						<FaBars
+							size={24}
+							className={scrolled ? "text-black" : "text-white"}
+						/>
+					)}
 				</button>
 
 				{/* Desktop Menu */}
 				<div className="hidden md:flex gap-6 font-medium text-base">
-					{" "}
 					{navLinks.map((link) => (
 						<Link
 							key={link.href}
 							href={link.href}
-							className={`transition ${
+							className={`transition-colors duration-200 ${
 								pathname === link.href
 									? "text-orange-500"
-									: "hover:text-orange-400 text-white"
+									: scrolled
+									? "text-gray-800 hover:text-orange-500"
+									: "text-white hover:text-orange-400"
 							}`}>
 							{link.name}
 						</Link>
@@ -66,14 +84,13 @@ export default function Navbar() {
 
 			{/* Mobile Menu */}
 			{isOpen && (
-				<div className="bg-white text-black px-4 pb-4 pt-2 flex flex-col gap-4 md:hidden text-base">
-					{" "}
+				<div className="md:hidden bg-white shadow-md text-black px-4 py-4 flex flex-col gap-4">
 					{navLinks.map((link) => (
 						<Link
 							key={link.href}
 							href={link.href}
 							onClick={() => setIsOpen(false)}
-							className={`transition font-medium ${
+							className={`transition font-medium text-base ${
 								pathname === link.href
 									? "text-orange-500"
 									: "hover:text-orange-500"

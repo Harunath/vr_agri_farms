@@ -29,23 +29,29 @@ const features = [
 
 export default function Sustainability() {
 	return (
-		<section className="bg-[#2F855A] text-white py-16 px-6">
-			<div className="max-w-7xl mx-auto grid gap-12 md:grid-cols-2 lg:grid-cols-4 text-center">
-				{features.map((feature, index) => (
-					<div
-						key={index}
-						className="group space-y-4   hover:bg-white/5 transition-all duration-300  p-6">
-						<div className="flex justify-center text-white group-hover:text-orange-500 transition duration-300">
-							{feature.icon}
+		<section className="bg-[#2F855A] text-white py-20 px-6 sm:px-10">
+			<div className="max-w-7xl mx-auto">
+				<h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-14">
+					Our Commitment to{" "}
+					<span className="text-orange-400">Sustainability</span>
+				</h2>
+				<div className="grid gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-4 text-center">
+					{features.map((feature, index) => (
+						<div
+							key={index}
+							className="group p-6 bg-white/5 backdrop-blur-sm rounded-xl hover:shadow-lg transition-all duration-300 space-y-4">
+							<div className="flex justify-center text-white group-hover:text-orange-400 transition duration-300">
+								{feature.icon}
+							</div>
+							<h3 className="text-lg font-semibold group-hover:text-orange-400 transition duration-300">
+								{feature.title}
+							</h3>
+							<p className="text-sm leading-relaxed text-white/80 group-hover:text-white transition duration-300">
+								{feature.description}
+							</p>
 						</div>
-						<h3 className="text-lg font-semibold text-white group-hover:text-orange-500 transition duration-300">
-							{feature.title}
-						</h3>
-						<p className="text-sm leading-relaxed text-white/80 group-hover:text-white">
-							{feature.description}
-						</p>
-					</div>
-				))}
+					))}
+				</div>
 			</div>
 		</section>
 	);
