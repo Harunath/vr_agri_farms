@@ -7,10 +7,6 @@ const images = [
 		alt: "Entrance Gate",
 	},
 	{
-		src: "https://res.cloudinary.com/dgulr1hgd/image/upload/v1751022058/agricultural-fencing_cs53j1.jpg",
-		alt: "Secured Fencing",
-	},
-	{
 		src: "https://res.cloudinary.com/dgulr1hgd/image/upload/v1751022092/72_cxhyxj.jpg",
 		alt: "Protected Cultivation",
 	},
@@ -24,7 +20,7 @@ const images = [
 	},
 	{
 		src: "https://res.cloudinary.com/dgulr1hgd/image/upload/v1751022206/2017-04-13-15-24-09_liitoy.jpg",
-		alt: "Wide Internal Roads",
+		alt: "Uncongested Internal Roads",
 	},
 ];
 

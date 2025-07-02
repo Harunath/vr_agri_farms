@@ -39,14 +39,6 @@ export default function OwnAndGrow() {
 								delivering consistent results.
 							</span>
 						</li>
-						<li className="flex items-start gap-4">
-							<span className="text-orange-500 text-xl">💰</span>
-							<span>
-								A business model engineered to ensure fixed income streams and
-								excellent ROI—setting us apart from traditional investment
-								options.
-							</span>
-						</li>
 					</ul>
 				</div>
 
