@@ -1,10 +1,4 @@
-import {
-	FaLeaf,
-	FaHandsHelping,
-	FaSeedling,
-	FaChartLine,
-	FaHandshake,
-} from "react-icons/fa";
+import { FaLeaf, FaHandsHelping, FaHandshake } from "react-icons/fa";
 
 const items = [
 	{
@@ -16,16 +10,8 @@ const items = [
 		text: "A hybrid model of land ownership and agriculture that fosters sustainability and connects us to our roots.",
 	},
 	{
-		icon: <FaChartLine size={36} className="text-orange-500 mx-auto" />,
-		text: "High returns, strong growth potential, and smart portfolio diversification.",
-	},
-	{
-		icon: <FaSeedling size={36} className="text-orange-500 mx-auto" />,
-		text: "Our model offers reliable income streams and excellent ROI unlike traditional methods.",
-	},
-	{
 		icon: <FaHandshake size={36} className="text-orange-500 mx-auto" />,
-		text: "We partner with a reputed MNC across 9 Indian states ensuring stable returns.",
+		text: "We partner with a reputed MNC across 9 Indian states in Agri Business.",
 	},
 ];
 

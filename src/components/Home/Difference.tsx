@@ -12,11 +12,6 @@ const features = [
 			"We grow crops naturally without using harmful chemicals. This keeps the soil healthy and supports a better environment.",
 	},
 	{
-		title: "Complete Farmland Management",
-		description:
-			"We take care of everything from choosing the land to setting up water systems, fencing, and regular maintenance. You do not need any farming background.",
-	},
-	{
 		title: "Support for Every Investor",
 		description:
 			"Whether you are new or experienced, our team guides you every step of the way and keeps you updated on your farmland progress.",
@@ -34,9 +29,8 @@ export default function Difference() {
 			<div className="max-w-6xl mx-auto space-y-10">
 				<div className="text-center">
 					<h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-						How{" "}
-						<span className="text-orange-500">VR Agri </span>
-                        Makes a Difference
+						How <span className="text-orange-500">VR Agri </span>
+						Makes a Difference
 					</h2>
 					<p className="text-base sm:text-lg text-gray-700 max-w-3xl mx-auto">
 						VR Agri makes it simple to own and enjoy farmland. Whether you want

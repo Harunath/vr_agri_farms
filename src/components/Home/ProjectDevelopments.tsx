@@ -2,12 +2,11 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const developments = [
 	"Entrance gate",
-	"Secured fencing around venture",
 	"Protected cultivation",
 	"24x7 Security",
 	"CCTV Surveillance",
 	"100% Vastu compliant",
-	"The roads measure 40 feet and 30 feet in width each",
+	"The roads measure 30 feet and 20 feet in width each",
 ];
 
 export default function ProjectDevelopments() {
