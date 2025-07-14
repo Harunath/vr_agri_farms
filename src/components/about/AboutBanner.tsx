@@ -7,7 +7,7 @@ export default function AboutBanner() {
 		<>
 			<Banner
 				title="About VR Agri Farms"
-				bgImageUrl="https://res.cloudinary.com/dgulr1hgd/image/upload/v1750923873/1154575_ejfwd4.jpg"
+				bgImageUrl="https://res.cloudinary.com/dgulr1hgd/image/upload/v1752471456/4f4a1a9d7c51499e0f4d28ec5e128022_jjhwgw.jpg"
 			/>
 		</>
 	);
