@@ -7,7 +7,7 @@ import Difference from "@/components/Home/Difference";
 import React from "react";
 import ProjectDevelopments from "@/components/Home/ProjectDevelopments";
 import Gallery from "@/components/Home/Gallery";
-
+import Highlights from "@/components/Home/Highlights";
 function page() {
 	return (
 		<>
@@ -16,10 +16,11 @@ function page() {
 			<WhyChooseUs />
 			<Sustainability />
 			<Difference />
-			<Gallery/>
+			<Highlights />
+			<Gallery />
 
 			<OwnAndGrow />
-			<ProjectDevelopments/>
+			<ProjectDevelopments />
 		</>
 	);
 }

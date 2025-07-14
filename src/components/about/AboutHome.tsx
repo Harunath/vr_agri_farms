@@ -5,6 +5,7 @@ import WhoWeAre from "./WhoWeAre";
 
 import Mission from "./Mission";
 import Vision from "./Vision";
+import CoreTeam from "./CoreTeam";
 function AboutHome() {
 	return (
 		<>
@@ -13,6 +14,7 @@ function AboutHome() {
 			<AboutContent />
 			<Mission />
 			<Vision />
+			<CoreTeam/>
 		</>
 	);
 }
