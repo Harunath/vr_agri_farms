@@ -10,6 +10,7 @@ export default function MissionSection() {
 				<h2 className="text-4xl font-bold text-black">Our Mission</h2>
 			</div>
 
+			{/* Side-by-side layout with no spacing between image and text */}
 			<div className="flex flex-col lg:flex-row  overflow-hidden shadow-xl">
 				{/* Left Image */}
 				<div className="relative w-full lg:w-1/2 h-72 md:h-[400px]">

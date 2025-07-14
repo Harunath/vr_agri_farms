@@ -9,7 +9,7 @@ const teamMembers = [
 		description:
 			"He is a visionary entrepreneur known for pioneering sustainable farming ventures across India. With a passion for innovation and rural empowerment, he leads the company with a clear focus on social impact and scalable agricultural growth.",
 		image:
-			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1700000000/person1.jpg",
+			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1752476517/smiling_man_in_business_suit_at_laptop_GettyIma.original_exbbvb.jpg",
 	},
 	{
 		name: "PRIYA REDDY",
@@ -17,14 +17,14 @@ const teamMembers = [
 		description:
 			"Priya brings 15+ years of leadership across agri-policy, media, and investor relations. She has led several high-impact campaigns and continues to drive the firm’s mission of connecting farmers with global opportunities.",
 		image:
-			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1700000000/person2.jpg",
+			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1752476575/business-8458541_1280_buzoye.jpg",
 	},
 ];
 
 export default function CoreTeam() {
 	return (
 		<section className="bg-white py-20 px-6 sm:px-10 lg:px-24">
-			<h2 className="text-4xl font-bold text-green-900 mb-12 text-center">
+			<h2 className="text-4xl font-bold text-black mb-12 text-center">
 				Our Core Team
 			</h2>
 

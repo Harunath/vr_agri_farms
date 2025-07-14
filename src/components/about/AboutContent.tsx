@@ -84,7 +84,7 @@ export default function WhatWeDoSection() {
 					Together, we grow green, grow smart, and build a thriving future for
 					Indian agriculture.
 				</p>
-				<button className="bg-green-700 hover:bg-green-800 text-white px-8 py-3 rounded-full text-lg font-medium transition duration-300 shadow-md">
+				<button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-full text-lg font-medium transition duration-300 shadow-md">
 					Get Started
 				</button>
 			</div>
