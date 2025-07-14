@@ -2,12 +2,12 @@
 
 export default function WhatWeDoSection() {
 	return (
-		<section className="bg-gray-50 py-24 px-6 sm:px-10 lg:px-24 space-y-24">
+		<section className="bg-gray-50 py-16 sm:py-20 lg:py-24 px-6 sm:px-10 lg:px-24 space-y-10">
 			{/* What We Do */}
 			<div className="grid lg:grid-cols-2 gap-14 items-center">
 				{/* Text */}
 				<div>
-					<h2 className="text-4xl font-bold text-black mb-6 flex items-center gap-3">
+					<h2 className="text-4xl font-bold text-black mb-6 mt-0 flex items-center gap-3">
 						What We Do
 					</h2>
 					<div className="space-y-5 text-lg text-gray-700 leading-relaxed">
@@ -25,9 +25,9 @@ export default function WhatWeDoSection() {
 				</div>
 
 				{/* Image */}
-				<div className="w-full h-72 md:h-[420px]  overflow-hidden shadow-lg">
+				<div className="w-full h-72 md:h-[420px] overflow-hidden shadow-lg rounded-2xl">
 					<div
-						className="w-full h-full bg-cover bg-center transition-all duration-300 hover:scale-[1.02] "
+						className="w-full h-full bg-cover bg-center transition-all duration-300 hover:scale-[1.02] rounded-2xl"
 						style={{
 							backgroundImage:
 								"url('https://res.cloudinary.com/dgulr1hgd/image/upload/v1752473766/farmers-shaking-hands-during-harvest_cp2837.jpg')",
@@ -39,9 +39,9 @@ export default function WhatWeDoSection() {
 			{/* Our Approach */}
 			<div className="grid lg:grid-cols-2 gap-14 items-center">
 				{/* Image */}
-				<div className="w-full h-72 md:h-[420px]  overflow-hidden shadow-lg">
+				<div className="w-full h-72 md:h-[420px] overflow-hidden shadow-lg rounded-2xl">
 					<div
-						className="w-full h-full bg-cover bg-center transition-all duration-300 hover:scale-[1.02] "
+						className="w-full h-full bg-cover bg-center transition-all duration-300 hover:scale-[1.02] rounded-2xl"
 						style={{
 							backgroundImage:
 								"url('https://res.cloudinary.com/dgulr1hgd/image/upload/v1752474120/Agricultural-Systems-of-the-World_uf0f5q.jpg')",
@@ -51,7 +51,7 @@ export default function WhatWeDoSection() {
 
 				{/* Text */}
 				<div>
-					<h2 className="text-4xl font-bold text-black mb-6 flex items-center gap-3">
+					<h2 className="text-4xl font-bold text-black mb-6 mt-0 flex items-center gap-3">
 						Our Approach
 					</h2>
 					<div className="space-y-5 text-lg text-gray-700 leading-relaxed">
@@ -71,7 +71,7 @@ export default function WhatWeDoSection() {
 
 			{/* Join the Movement */}
 			<div className="text-center max-w-3xl mx-auto">
-				<h2 className="text-4xl font-bold text-black mb-6 flex justify-center items-center gap-3">
+				<h2 className="text-4xl font-bold text-black mb-6 mt-0 flex justify-center items-center gap-3">
 					Join the Movement
 				</h2>
 				<p className="text-lg text-gray-800 leading-relaxed mb-6">

@@ -4,7 +4,7 @@ import { FaSeedling, FaHandsHelping, FaChartLine } from "react-icons/fa";
 
 export default function Vision() {
 	return (
-		<section className="bg-white py-20 px-6 sm:px-10 lg:px-24">
+		<section className="bg-white py-4 pb-10 px-6 sm:px-10 lg:px-24">
 			{/* Title */}
 			<div className="text-center mb-10">
 				<h2 className="text-4xl font-bold text-black">Our Vision</h2>
