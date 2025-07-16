@@ -5,7 +5,7 @@ export const blogPosts = [
 		excerpt:
 			"Explore how natural farming is transforming Indian agriculture and improving long-term sustainability.",
 		image:
-			"https://res.cloudinary.com/degrggosz/image/upload/v1748501295/home2_bg_ito8po.jpg",
+			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1750923739/1598226_u7zss4.jpg",
 		author: {
 			name: "Sushma Sri",
 			avatar:
@@ -41,7 +41,7 @@ export const blogPosts = [
 		excerpt:
 			"See how integrated farming models provide economic and ecological balance to agri-investors.",
 		image:
-			"https://res.cloudinary.com/degrggosz/image/upload/v1748501295/home2_bg_ito8po.jpg",
+			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1750923873/1154575_ejfwd4.jpg",
 		author: {
 			name: "Arjun Patel",
 			avatar:
@@ -74,7 +74,7 @@ export const blogPosts = [
 		excerpt:
 			"Understand why farmland is gaining popularity as a stable, appreciating, and low-volatility investment.",
 		image:
-			"https://res.cloudinary.com/degrggosz/image/upload/v1748501295/home2_bg_ito8po.jpg",
+			"https://res.cloudinary.com/dgulr1hgd/image/upload/v1750924055/659813_uqcqrv.jpg",
 		author: {
 			name: "Priya Menon",
 			avatar:
@@ -85,7 +85,7 @@ export const blogPosts = [
 		links: [
 			{
 				text: "Compare agri vs. real estate returns",
-				url: "https://example.com/agri-returns",
+				url: "https://res.cloudinary.com/dgulr1hgd/image/upload/v1750923873/1154575_ejfwd4.jpg",
 			},
 			{
 				text: "Explore managed farmland projects",
