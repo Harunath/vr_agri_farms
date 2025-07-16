@@ -7,7 +7,7 @@ type BlogPost = (typeof blogPosts)[number];
 
 export default function BlogCard({ post }: { post: BlogPost }) {
 	return (
-		<div className="rounded-2xl overflow-hidden shadow-md  transition hover:shadow-xl">
+		<div className="rounded-2xl overflow-hidden shadow-xl  transition hover:shadow-2xl">
 			<Image
 				src={post.image}
 				alt={post.title}

@@ -38,7 +38,7 @@ export default function Navbar() {
 				{/* Logo */}
 				<Link href="/" className="block">
 					<Image
-						src="https://res.cloudinary.com/dgulr1hgd/image/upload/v1752672917/VR_KISAN_PARIVAAR-04_1_rubkhs.png"
+						src="https://res.cloudinary.com/dgulr1hgd/image/upload/v1752675634/VR_KISAN_PARIVAAR-04_1_rbcvyz.png"
 						alt="VR Agri Farms Logo"
 						width={96}
 						height={96}
